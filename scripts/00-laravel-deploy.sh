@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo "Running composer..."
+cd /var/www/html && composer install --no-dev --optimize-autoloader
+
 echo "Clearing old config..."
 php artisan config:clear
 
