@@ -1,8 +1,4 @@
-databases:
-  - name: laravel_db
-    plan: free
-    databaseName: laravel_db
-    user: laravel_db_user
+
 
 services:
   - type: web
